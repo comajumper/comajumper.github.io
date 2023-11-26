@@ -2,11 +2,12 @@
 
 :root {
 	--text: #111;
+    /* --link: #fff; */
     --link: #aaa;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Switzer', Helvetica, Arial, sans-serif;
     font-size: 0.75vw;
     color: var(--text);
     background-color: #fff;
@@ -15,7 +16,7 @@ body {
 }
 
 .hovered {
-    /* background-color: #fff; */
+    /* background-color: #bbb; */
 }
 
 main {
@@ -25,9 +26,8 @@ main {
     padding-right: 1.2em;
     width: 100%;
 
-    font-family: 'Switzer';
     /* letter-spacing: -0.01em; */
-    font-weight: 500;
+    font-weight: medium;
     font-size: 5.5em;
     line-height: 1;
 }
