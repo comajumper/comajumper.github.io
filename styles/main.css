@@ -36,6 +36,7 @@ main {
     position: fixed;
     border-radius: 100%;
     width: 11em;
+    height: 11em;
     top: 6.5em;
     left: 6em;
 }
