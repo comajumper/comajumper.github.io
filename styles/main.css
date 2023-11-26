@@ -39,6 +39,7 @@ body {
 
     video {
         box-sizing:border-box;
+        padding: 0px;
     }
 
     h2 {
