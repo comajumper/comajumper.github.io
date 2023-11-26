@@ -22,19 +22,19 @@ body {
         font-size: 1.25vw;
     }
 
+    main {
+        margin-top: 6em;
+        padding-left: 6em;
+        padding-right: 6em;
+        padding-bottom: 12em;
+    }
+
     #avatar {
         position: relative;
         padding-left: 6em;
         margin-top: 6em;
         width: 20vw;
         height: 20vw;
-    }
-
-    main {
-        margin-top: 6em;
-        padding-left: 6em;
-        padding-right: 6em;
-        padding-bottom: 12em;
     }
 
     h2 {
