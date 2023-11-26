@@ -5,11 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Dima Bykov is a design and product leader who empower people to bring visionary ideas into life with intention, simplicity and beauty.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="styles/reset.css" rel="stylesheet" type="text/css">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
     <title>Dima Bykov</title>
 </head>
 <body>
-    <p>Dima Bykov is a design and product leader who empower people to bring visionary ideas into life with intention, simplicity and beauty.</p>
+    <div id="avatar">
+         <video autoplay loop muted playsinline>
+            <source src="images/avatar/avatar.webm" type="video/webm">
+            <source src="images/avatar/avatar.mp4" type="video/mp4">
+        </video>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cases">Cases</a></li>
+            <li><a href="#talks">Talks</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p><span id="name">Dima Bykov</span> is a design and product leader who empower people to bring visionary ideas into life with intention, simplicity and beauty.</p>
+        <p>Currently, he is a VP of Product at <a href="https://osome.com/" target="_blank">Osome</a>, shaping the future of financial accounting for SMBs in Singapore, Hong Kong, and United Kingdom.</p>
+        <p>Previously, he was leading design and research for ecommerce unit at <a href="https://yandex.com/" target="_blank">Yandex</a> called <i>Russian Amazon</i> by <a href="https://www.ft.com/content/f4d85572-d6b8-11e8-a854-33d6f82e62f8" target="_blank">Financial Times</a>.</p>
+        <p>He is a mentor at <a href="https://meander.so/m/dima" target="_blank">Meander</a> and <a href="https://adplist.org/mentors/dmitry-bykov" target="_blank">ADPList</a> and was a programme director and lecturer at Yandex Design School.</p>
+    </main>
 </body>
+
+
+<script lang="javascript">
+    var links = document.querySelectorAll('a');
+    function addBackground() { document.body.classList.add('hovered'); }
+    function removeBackground() { document.body.classList.remove('hovered'); }
+    links.forEach(function(link) {
+        link.addEventListener('mouseover', addBackground);
+        link.addEventListener('mouseout', removeBackground);
+    });
+</script>
 </html>
