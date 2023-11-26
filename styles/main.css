@@ -27,7 +27,8 @@ body {
         padding-left: 6em;
         margin-top: 6em;
         width: 16em;
-        height: auto;
+        height: 16em;
+        border-radius: 50%;
     }
 
     main {
@@ -70,6 +71,7 @@ body {
         height: 12em;
         top: 6em;
         left: 6em;
+        border-radius: 50%;
     }
 
     h2 {
@@ -110,7 +112,6 @@ video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 100%;
 }
 
 .social {
