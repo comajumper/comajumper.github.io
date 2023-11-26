@@ -10,7 +10,6 @@
 body {
     font-family: 'Switzer', Helvetica, Arial, sans-serif;
     
-    
     color: var(--text);
     background-color: var(--bg);
     
@@ -34,7 +33,7 @@ body {
         padding-left: 6em;
         margin-top: 6em;
         width: 20vw;
-        /* height: 20vw; */
+        height: 100%;
     }
 
     h2 {
