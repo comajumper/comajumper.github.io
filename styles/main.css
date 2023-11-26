@@ -34,6 +34,11 @@ body {
         margin-top: 6em;
         width: 20vw;
         height: 100%;
+        box-sizing:border-box;
+    }
+
+    video {
+        box-sizing:border-box;
     }
 
     h2 {
