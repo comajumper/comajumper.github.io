@@ -33,7 +33,7 @@ main {
     line-height: 1;
 }
 
-#avatar video {
+#avatar, #avatar video {
     position: fixed;
     border-radius: 100%;
     width: 11em;
@@ -60,6 +60,19 @@ nav a {
 
 main p + p {
     margin-top: 1.2em;
+}
+
+.small {
+    font-size: 0.6em;
+    margin-top: 2em;
+}
+
+.small + .small {
+    margin-top: 0.4em;
+}
+
+.social {
+    margin-right: 0.7em;
 }
 
 #name {
