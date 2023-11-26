@@ -2,44 +2,74 @@
 
 :root {
 	--text: #111;
-    /* --link: #fff; */
     --link: #aaa;
+    --bg: #fff;
+    --bg-hover: #fff;
 }
 
 body {
     font-family: 'Switzer', Helvetica, Arial, sans-serif;
     font-size: 0.75vw;
+    
     color: var(--text);
-    background-color: #fff;
+    background-color: var(--bg);
+    
     transition: all 300ms ease-in-out;
-
 }
 
 .hovered {
-    /* background-color: #bbb; */
+    background-color: var(--bg-hover);
 }
+
+a {
+    transition: color 150ms ease;
+}
+
+a:hover {
+    color: var(--link);
+}
+
 
 main {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
-    padding-left: 4.3em;
-    padding-right: 1.2em;
-    width: 100%;
-    height: 100%;
-
-    /* letter-spacing: -0.01em; */
-    font-weight: medium;
-    font-size: 5.5em;
-    line-height: 1;
+    margin-top: 6em;
+    padding-left: 24em;
+    padding-right: 6em;
+    padding-bottom: 6em;
 }
 
-#avatar, #avatar video {
+h2 {
+    font-weight: 500;
+    font-size: 5.5em;
+    line-height: 1;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#name {
+    font-family: 'Ogg';
+    font-style: italic;
+    font-size: 1.05em;
+}
+
+p {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+
+
+#avatar {
     position: fixed;
-    border-radius: 100%;
-    width: 11em;
-    height: 11em;
-    top: 6.5em;
+    width: 12em;
+    height: 12em;
+    top: 6em;
     left: 6em;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 nav {
@@ -49,42 +79,15 @@ nav {
 }
 
 nav ul {
-    font-size: 3.25em;
-    line-height: 1.2;
+    font-size: 3em;
+    line-height: 1;
     font-weight: 500;
+}
+
+nav ul li {
+    margin-top: 0.2em;
 }
 
 nav a {
     text-decoration: none;
-}
-
-main p + p {
-    margin-top: 1.2em;
-}
-
-.small {
-    font-size: 0.6em;
-    margin-top: 2em;
-}
-
-.small + .small {
-    margin-top: 0.4em;
-}
-
-.social {
-    margin-right: 0.7em;
-}
-
-#name {
-    font-family: 'Ogg';
-    font-style: italic;
-    font-size: 1.05em;
-}
-
-a {
-    transition: color 150ms ease;
-}
-
-a:hover {
-    color: var(--link);
 }
