@@ -30,7 +30,7 @@ body {
 
     #avatar {
         position: relative;
-        padding-left: 6em;
+        margin-left: 6em;
         margin-top: 6em;
         width: 20vw;
         height: 100%;
